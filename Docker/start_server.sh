@@ -1,0 +1,1 @@
+ docker run --name authentication-playground -d -v ~/projects/authentication-playground/content:/usr/share/nginx/html:ro -p 8080:80 authentication-playground
