@@ -6,6 +6,6 @@ services:
     image: authentication-playground:latest
     container_name: authentication-playground
     volumes:
-      -  ~/projects/authentication-playground/content:/usr/share/nginx/html
+      -  ../content:/usr/share/nginx/html
     ports:
       - 8080:80
