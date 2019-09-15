@@ -6,5 +6,6 @@ services:
     volumes:
       - ../content:/usr/share/nginx/html
       - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./.htpasswd:/etc/apache2/.htpasswd
     ports:
       - 8080:8080
